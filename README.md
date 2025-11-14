@@ -18,7 +18,7 @@
 
 # 🔧 **Setup & Deployment**
 
-## ⭐ **1. 𝗙𝗢𝗥𝗞 𝗧𝗛𝗘 𝗕𝗢𝗧 𝗣𝗟𝗘𝗔𝗦𝗘💚*
+## ⭐ **1. 𝗙𝗢𝗥𝗞 𝗧𝗛𝗘 𝗕𝗢𝗧**
 
 [![Fork the Repository](https://img.shields.io/badge/FORK%20REPOSITORY-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)](https://github.com/popkidmd/POPKID-MD/fork)
 
