@@ -7,22 +7,22 @@ function convertToBool(text, fault = 'true') {
 
 module.exports = {
     // --- BOT CORE SETTINGS ---
-    SESSION_ID: process.env.SESSION_ID || "popkid-session",
+    SESSION_ID: process.env.SESSION_ID || "POPKID;;;KRcBjKqT#uEh4yB_Iiu00ErpVK43UJbgPDGGnrjQjlyWS7iahdHc",
     PREFIX: process.env.PREFIX || ".",
-    BOT_NAME: process.env.BOT_NAME || "POPKID-MD",
+    BOT_NAME: process.env.BOT_NAME || "𓆩•𝚜𝚊𝚔𝚞𝚛𝚊///𓆪𝓑𝓜𝓕•|𝐂𝚪𝚫𝐙Y暗い",
     DESCRIPTION: process.env.DESCRIPTION || "© popkid xtr bot",
-    MODE: process.env.MODE || "public", // Options: public, private, inbox, group
-    PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
+    MODE: process.env.MODE || "private", // Options: public, private, inbox, group
+    PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
     
     // --- OWNER/DEV SETTINGS ---
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "254732297194",
-    OWNER_NAME: process.env.OWNER_NAME || "POPKID",
-    DEV: process.env.DEV || "254732297194", // Developer number
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "50955323616",
+    OWNER_NAME: process.env.OWNER_NAME || "ఌ𝙼𝚛.𝙺𝚒𝚌𝚔’𝙴𝚖 𝙰𝚕☘",
+    DEV: process.env.DEV || "50955323616", // Developer number
 
     // --- MESSAGING & VISIBILITY ---
     READ_MESSAGE: process.env.READ_MESSAGE || "false", // Auto read private messages
     READ_CMD: process.env.READ_CMD || "false", // Mark commands as read
-    ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false", // Always show online status
+    ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true", // Always show online status
     AUTO_TYPING: process.env.AUTO_TYPING || "true", // Auto show typing status
     AUTO_RECORDING: process.env.AUTO_RECORDING || "true", // Auto show recording status
     
@@ -31,18 +31,18 @@ module.exports = {
     MENTION_REPLY: process.env.MENTION_REPLY || "true", // Auto voice reply on mention
     AUTO_VOICE: process.env.AUTO_VOICE || "true", // Automatic voices
     AUTO_STICKER: process.env.AUTO_STICKER || "false", // Automatic stickers
-    STICKER_NAME: process.env.STICKER_NAME || "POPKID-MD", // Sticker pack name
+    STICKER_NAME: process.env.STICKER_NAME || "ఌ𝙼𝚛.𝙺𝚒𝚌𝚔’𝙴𝚖 𝙰𝚕☘", // Sticker pack name
     MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/kiy0hl.jpg", // Menu image
     ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/n8o8py.jpg", // Alive image
-    LIVE_MSG: process.env.LIVE_MSG || ">POPKID MD IS ALIVE😍", // Alive message
+    LIVE_MSG: process.env.LIVE_MSG || ">POPKID MD IS ALIVE😍xఌ𝙼𝚛.𝙺𝚒𝚌𝚔’𝙴𝚖 𝙰𝚕☘", // Alive message
 
     // --- REACTION SETTINGS ---
     AUTO_REACT: process.env.AUTO_REACT || "false", // Auto react on all messages
     CUSTOM_REACT: process.env.CUSTOM_REACT || "false", // Enable custom emoji react
-    CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍", // Custom react emojis
+    CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "false", // Custom react emojis
     
     // --- STATUS SETTINGS ---
-    AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true", // Auto view statuses
+    AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false", // Auto view statuses
     AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true", // Auto react on statuses
     AUTO_STATUS_REACT_EMOJI: process.env.AUTO_STATUS_REACT_EMOJI || "❎", // Custom status reaction emoji (New)
     AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false", // Auto reply on status (Enabled)
@@ -50,8 +50,8 @@ module.exports = {
     
     // --- GROUP & SECURITY ---
     ANTI_LINK: process.env.ANTI_LINK || "true",
-    ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
-    DELETE_LINKS: process.env.DELETE_LINKS || "false", // Automatic delete links without kick
+    ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "true",
+    DELETE_LINKS: process.env.DELETE_LINKS || "true", // Automatic delete links without kick
     ANTI_BAD: process.env.ANTI_BAD || "true",
     ANTI_VV: process.env.ANTI_VV || "true", // Anti view once
     ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "log", // Anti delete path
