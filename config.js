@@ -34,7 +34,7 @@ module.exports = {
     STICKER_NAME: process.env.STICKER_NAME || "ఌ𝙼𝚛.𝙺𝚒𝚌𝚔’𝙴𝚖 𝙰𝚕☘", // Sticker pack name
     MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/kiy0hl.jpg", // Menu image
     ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/n8o8py.jpg", // Alive image
-    LIVE_MSG: process.env.LIVE_MSG || ">POPKID MD IS ALIVE😍xఌ𝙼𝚛.𝙺𝚒𝚌𝚔’𝙴𝚖 𝙰𝚕☘", // Alive message
+    LIVE_MSG: process.env.LIVE_MSG || ">POPKID MD IS ALIVE😍", // Alive message
 
     // --- REACTION SETTINGS ---
     AUTO_REACT: process.env.AUTO_REACT || "false", // Auto react on all messages
